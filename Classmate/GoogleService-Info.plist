@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1010560930391-0uktr8vit8sok9q2f89php263v9ajvtk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1010560930391-0uktr8vit8sok9q2f89php263v9ajvtk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRvnbZ5M_GetWD_ZN5pWYNqLqgd8Sw7lI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1010560930391</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jakubForek.Classmate</string>
+	<key>PROJECT_ID</key>
+	<string>classmate-3c146</string>
+	<key>STORAGE_BUCKET</key>
+	<string>classmate-3c146.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1010560930391:ios:4a03f975a0adefe5400912</string>
+	<key>DATABASE_URL</key>
+	<string>https://classmate-3c146.firebaseio.com</string>
+</dict>
+</plist>

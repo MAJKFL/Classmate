@@ -3,23 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2DD9EC255D709F00527844 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2DD9EB255D709F00527844 /* GoogleService-Info.plist */; };
+		AA2DD9F0255D72FA00527844 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AA2DD9EF255D72FA00527844 /* FirebaseAnalytics */; };
+		AA2DD9F2255D72FA00527844 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = AA2DD9F1255D72FA00527844 /* FirebaseFirestoreSwift-Beta */; };
+		AA2DD9F4255D72FA00527844 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AA2DD9F3255D72FA00527844 /* FirebaseAuth */; };
+		AA2DD9F6255D72FA00527844 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AA2DD9F5255D72FA00527844 /* FirebaseFirestore */; };
+		AA2DD9FA255D953A00527844 /* LessonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2DD9F9255D953A00527844 /* LessonRepository.swift */; };
+		AA37885925606B040013A297 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37885825606B040013A297 /* Settings.swift */; };
+		AA37885C25606C310013A297 /* SettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37885B25606C310013A297 /* SettingsRepository.swift */; };
+		AA37885F25606F580013A297 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37885E25606F580013A297 /* SettingsViewModel.swift */; };
+		AA51267625613ADD00405C38 /* PlanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51267525613ADD00405C38 /* PlanListViewModel.swift */; };
+		AA51267925613B8000405C38 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51267825613B8000405C38 /* PlanListView.swift */; };
+		AA51267D2561712300405C38 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AA51267C2561712300405C38 /* CodeScanner */; };
+		AA6479DC255EE44300221707 /* BreakRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6479DB255EE44300221707 /* BreakRepository.swift */; };
+		AA66F474253C879800D44463 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66F473253C879800D44463 /* View+Extensions.swift */; };
+		AA6716E12544493A00B70E91 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6716E02544493A00B70E91 /* LessonListView.swift */; };
+		AA6B11472561C79F00AD851A /* LessonCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6B11462561C79F00AD851A /* LessonCellView.swift */; };
+		AA6B114A2561C7AD00AD851A /* BreakCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6B11492561C7AD00AD851A /* BreakCellView.swift */; };
+		AA6E574E256407310099CD14 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E574D256407310099CD14 /* WelcomeView.swift */; };
+		AA812BF9254995B1008B6DB8 /* BreakCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812BF8254995B1008B6DB8 /* BreakCellViewModel.swift */; };
+		AA812BFE2549A3E7008B6DB8 /* Stripes in Frameworks */ = {isa = PBXBuildFile; productRef = AA812BFD2549A3E7008B6DB8 /* Stripes */; };
+		AA860C2B25488EEC003837C3 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA860C2A25488EEC003837C3 /* TodayView.swift */; };
+		AA860C2E25488F23003837C3 /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA860C2D25488F23003837C3 /* TodayViewModel.swift */; };
 		AA9CB56B2531FD450097E600 /* ClassmateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CB56A2531FD450097E600 /* ClassmateApp.swift */; };
-		AA9CB56D2531FD450097E600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CB56C2531FD450097E600 /* ContentView.swift */; };
+		AA9CB56D2531FD450097E600 /* LessonPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CB56C2531FD450097E600 /* LessonPlanView.swift */; };
 		AA9CB56F2531FD490097E600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9CB56E2531FD490097E600 /* Assets.xcassets */; };
 		AA9CB5722531FD490097E600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9CB5712531FD490097E600 /* Preview Assets.xcassets */; };
+		AA9CB57F253204380097E600 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CB57E253204380097E600 /* Lesson.swift */; };
+		AA9E2C8C25320E89005594FA /* LessonCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E2C8B25320E89005594FA /* LessonCellViewModel.swift */; };
+		AA9E2C90253212F0005594FA /* LessonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E2C8F253212F0005594FA /* LessonListViewModel.swift */; };
+		AAA521252540A3F5005FC184 /* schoolBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA521242540A3F5005FC184 /* schoolBreak.swift */; };
+		AABD670425816AC80098E65F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD670325816AC80098E65F /* Event.swift */; };
+		AABD670725816BC70098E65F /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD670625816BC70098E65F /* EventRepository.swift */; };
+		AABD670A25816C760098E65F /* EventCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD670925816C760098E65F /* EventCellViewModel.swift */; };
+		AABD670E25816E5D0098E65F /* EventInspectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD670D25816E5D0098E65F /* EventInspectorViewModel.swift */; };
+		AABD6711258174190098E65F /* EventInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD6710258174190098E65F /* EventInspectorView.swift */; };
+		AAC0BC4F255178C900ED5641 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0BC4E255178C900ED5641 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2DD9EB255D709F00527844 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA2DD9F9255D953A00527844 /* LessonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonRepository.swift; sourceTree = "<group>"; };
+		AA37885825606B040013A297 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AA37885B25606C310013A297 /* SettingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRepository.swift; sourceTree = "<group>"; };
+		AA37885E25606F580013A297 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		AA51267525613ADD00405C38 /* PlanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewModel.swift; sourceTree = "<group>"; };
+		AA51267825613B8000405C38 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		AA6479DB255EE44300221707 /* BreakRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakRepository.swift; sourceTree = "<group>"; };
+		AA66F473253C879800D44463 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		AA6716E02544493A00B70E91 /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		AA6B11462561C79F00AD851A /* LessonCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCellView.swift; sourceTree = "<group>"; };
+		AA6B11492561C7AD00AD851A /* BreakCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakCellView.swift; sourceTree = "<group>"; };
+		AA6E574D256407310099CD14 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AA812BF8254995B1008B6DB8 /* BreakCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakCellViewModel.swift; sourceTree = "<group>"; };
+		AA860C2A25488EEC003837C3 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		AA860C2D25488F23003837C3 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
 		AA9CB5672531FD450097E600 /* Classmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9CB56A2531FD450097E600 /* ClassmateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateApp.swift; sourceTree = "<group>"; };
-		AA9CB56C2531FD450097E600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA9CB56C2531FD450097E600 /* LessonPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonPlanView.swift; sourceTree = "<group>"; };
 		AA9CB56E2531FD490097E600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9CB5712531FD490097E600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA9CB5732531FD490097E600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9CB57E253204380097E600 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		AA9E2C8B25320E89005594FA /* LessonCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCellViewModel.swift; sourceTree = "<group>"; };
+		AA9E2C8F253212F0005594FA /* LessonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListViewModel.swift; sourceTree = "<group>"; };
+		AAA521242540A3F5005FC184 /* schoolBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolBreak.swift; sourceTree = "<group>"; };
+		AABD670325816AC80098E65F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		AABD670625816BC70098E65F /* EventRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
+		AABD670925816C760098E65F /* EventCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellViewModel.swift; sourceTree = "<group>"; };
+		AABD670D25816E5D0098E65F /* EventInspectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInspectorViewModel.swift; sourceTree = "<group>"; };
+		AABD6710258174190098E65F /* EventInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInspectorView.swift; sourceTree = "<group>"; };
+		AAC0BC4E255178C900ED5641 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +85,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2DD9F2255D72FA00527844 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				AA2DD9F0255D72FA00527844 /* FirebaseAnalytics in Frameworks */,
+				AA51267D2561712300405C38 /* CodeScanner in Frameworks */,
+				AA812BFE2549A3E7008B6DB8 /* Stripes in Frameworks */,
+				AA2DD9F6255D72FA00527844 /* FirebaseFirestore in Frameworks */,
+				AA2DD9F4255D72FA00527844 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2DD9F8255D94D600527844 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AA2DD9F9255D953A00527844 /* LessonRepository.swift */,
+				AA6479DB255EE44300221707 /* BreakRepository.swift */,
+				AA37885B25606C310013A297 /* SettingsRepository.swift */,
+				AABD670625816BC70098E65F /* EventRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AA51267425613A3B00405C38 /* CellViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA9E2C8B25320E89005594FA /* LessonCellViewModel.swift */,
+				AA812BF8254995B1008B6DB8 /* BreakCellViewModel.swift */,
+				AA37885E25606F580013A297 /* SettingsViewModel.swift */,
+				AABD670925816C760098E65F /* EventCellViewModel.swift */,
+			);
+			path = CellViewModels;
+			sourceTree = "<group>";
+		};
+		AA66F472253C877600D44463 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA66F473253C879800D44463 /* View+Extensions.swift */,
+				AAC0BC4E255178C900ED5641 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AA9CB55E2531FD450097E600 = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +147,15 @@
 		AA9CB5692531FD450097E600 /* Classmate */ = {
 			isa = PBXGroup;
 			children = (
-				AA9CB56A2531FD450097E600 /* ClassmateApp.swift */,
-				AA9CB56C2531FD450097E600 /* ContentView.swift */,
+				AA9CB57B253203D70097E600 /* App */,
+				AA66F472253C877600D44463 /* Extensions */,
+				AA9CB57D253203FD0097E600 /* Model */,
+				AA2DD9F8255D94D600527844 /* Repositories */,
+				AA9E2C8A25320E65005594FA /* ViewModels */,
+				AA9CB57C253203E50097E600 /* View */,
 				AA9CB56E2531FD490097E600 /* Assets.xcassets */,
 				AA9CB5732531FD490097E600 /* Info.plist */,
+				AA2DD9EB255D709F00527844 /* GoogleService-Info.plist */,
 				AA9CB5702531FD490097E600 /* Preview Content */,
 			);
 			path = Classmate;
@@ -67,6 +167,60 @@
 				AA9CB5712531FD490097E600 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA9CB57B253203D70097E600 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA9CB56A2531FD450097E600 /* ClassmateApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA9CB57C253203E50097E600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AABD670C25816D740098E65F /* CellViews */,
+				AA9CB56C2531FD450097E600 /* LessonPlanView.swift */,
+				AA6716E02544493A00B70E91 /* LessonListView.swift */,
+				AA860C2A25488EEC003837C3 /* TodayView.swift */,
+				AA51267825613B8000405C38 /* PlanListView.swift */,
+				AA6E574D256407310099CD14 /* WelcomeView.swift */,
+				AABD6710258174190098E65F /* EventInspectorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA9CB57D253203FD0097E600 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA9CB57E253204380097E600 /* Lesson.swift */,
+				AAA521242540A3F5005FC184 /* schoolBreak.swift */,
+				AA37885825606B040013A297 /* Settings.swift */,
+				AABD670325816AC80098E65F /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA9E2C8A25320E65005594FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA51267425613A3B00405C38 /* CellViewModels */,
+				AA860C2D25488F23003837C3 /* TodayViewModel.swift */,
+				AA9E2C8F253212F0005594FA /* LessonListViewModel.swift */,
+				AA51267525613ADD00405C38 /* PlanListViewModel.swift */,
+				AABD670D25816E5D0098E65F /* EventInspectorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AABD670C25816D740098E65F /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B11462561C79F00AD851A /* LessonCellView.swift */,
+				AA6B11492561C7AD00AD851A /* BreakCellView.swift */,
+			);
+			path = CellViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +239,14 @@
 			dependencies = (
 			);
 			name = Classmate;
+			packageProductDependencies = (
+				AA812BFD2549A3E7008B6DB8 /* Stripes */,
+				AA2DD9EF255D72FA00527844 /* FirebaseAnalytics */,
+				AA2DD9F1255D72FA00527844 /* FirebaseFirestoreSwift-Beta */,
+				AA2DD9F3255D72FA00527844 /* FirebaseAuth */,
+				AA2DD9F5255D72FA00527844 /* FirebaseFirestore */,
+				AA51267C2561712300405C38 /* CodeScanner */,
+			);
 			productName = Classmate;
 			productReference = AA9CB5672531FD450097E600 /* Classmate.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +274,11 @@
 				Base,
 			);
 			mainGroup = AA9CB55E2531FD450097E600;
+			packageReferences = (
+				AA812BFC2549A3E7008B6DB8 /* XCRemoteSwiftPackageReference "Stripes" */,
+				AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AA51267B2561712200405C38 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = AA9CB5682531FD450097E600 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +295,7 @@
 			files = (
 				AA9CB5722531FD490097E600 /* Preview Assets.xcassets in Resources */,
 				AA9CB56F2531FD490097E600 /* Assets.xcassets in Resources */,
+				AA2DD9EC255D709F00527844 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +306,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9CB56D2531FD450097E600 /* ContentView.swift in Sources */,
+				AABD670A25816C760098E65F /* EventCellViewModel.swift in Sources */,
+				AA9E2C8C25320E89005594FA /* LessonCellViewModel.swift in Sources */,
+				AA51267625613ADD00405C38 /* PlanListViewModel.swift in Sources */,
+				AA9E2C90253212F0005594FA /* LessonListViewModel.swift in Sources */,
+				AA860C2E25488F23003837C3 /* TodayViewModel.swift in Sources */,
+				AA6716E12544493A00B70E91 /* LessonListView.swift in Sources */,
+				AABD6711258174190098E65F /* EventInspectorView.swift in Sources */,
+				AA37885C25606C310013A297 /* SettingsRepository.swift in Sources */,
+				AA9CB57F253204380097E600 /* Lesson.swift in Sources */,
+				AAC0BC4F255178C900ED5641 /* Date+Extensions.swift in Sources */,
+				AABD670E25816E5D0098E65F /* EventInspectorViewModel.swift in Sources */,
+				AABD670425816AC80098E65F /* Event.swift in Sources */,
+				AA812BF9254995B1008B6DB8 /* BreakCellViewModel.swift in Sources */,
+				AABD670725816BC70098E65F /* EventRepository.swift in Sources */,
+				AA37885F25606F580013A297 /* SettingsViewModel.swift in Sources */,
+				AA860C2B25488EEC003837C3 /* TodayView.swift in Sources */,
+				AAA521252540A3F5005FC184 /* schoolBreak.swift in Sources */,
+				AA37885925606B040013A297 /* Settings.swift in Sources */,
+				AA6B114A2561C7AD00AD851A /* BreakCellView.swift in Sources */,
+				AA6479DC255EE44300221707 /* BreakRepository.swift in Sources */,
+				AA6B11472561C79F00AD851A /* LessonCellView.swift in Sources */,
+				AA9CB56D2531FD450097E600 /* LessonPlanView.swift in Sources */,
+				AA6E574E256407310099CD14 /* WelcomeView.swift in Sources */,
+				AA2DD9FA255D953A00527844 /* LessonRepository.swift in Sources */,
+				AA66F474253C879800D44463 /* View+Extensions.swift in Sources */,
 				AA9CB56B2531FD450097E600 /* ClassmateApp.swift in Sources */,
+				AA51267925613B8000405C38 /* PlanListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +521,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		AA51267B2561712200405C38 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+		AA812BFC2549A3E7008B6DB8 /* XCRemoteSwiftPackageReference "Stripes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eneko/Stripes.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA2DD9EF255D72FA00527844 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AA2DD9F1255D72FA00527844 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		AA2DD9F3255D72FA00527844 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AA2DD9F5255D72FA00527844 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA2DD9EE255D72FA00527844 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AA51267C2561712300405C38 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA51267B2561712200405C38 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		AA812BFD2549A3E7008B6DB8 /* Stripes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA812BFC2549A3E7008B6DB8 /* XCRemoteSwiftPackageReference "Stripes" */;
+			productName = Stripes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA9CB55F2531FD450097E600 /* Project object */;
 }
